@@ -19,6 +19,27 @@ h1 {
   padding-bottom: 20px;
 }
 
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3.0rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  margin: 0;
+}
+
+p {
+  color: #8f8f8f;
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -59,11 +80,7 @@ h1 {
 
 #features {
   text-align: center;
-  padding: 100px;
-}
-
-.features-row {
-  padding: 0 150px;
+  padding: 100px 250px;
 }
 
 .features-icon {
@@ -79,16 +96,28 @@ h1 {
   padding: 50px 0;
 }
 
-h3 {
-  font-family: "Montserrat-bold", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: 0.5rem 0;
-  margin: 0;
+/* Testimonial Section */
+
+#testimonials {
+  padding: 100px 250px;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
 
-p {
-  color: #8f8f8f;
-  width: 70%;
-  margin: 0 auto;
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  padding: 10px 25px 55px 25px;
 }
