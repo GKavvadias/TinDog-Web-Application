@@ -139,13 +139,55 @@ padding: 100px;
 text-align: center;
 }
 
+.pricing-p {
+  padding: 20px;
+}
+
 .pricing-btn {
 margin: 10px auto;
 width: 100%;
+margin-bottom: -80px;
 }
 
 .pricing-col {
   padding: 1.8rem;
+}
+
+.card-body {
+  height: 276px;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 100px 250px;
+}
+
+.cta-h3 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.0rem;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+.cta-btn {
+  margin-bottom: 50px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding: 100px 250px;
+  text-align: center;
+}
+
+.footer-fa {
+  margin: 0 10px 15px;
 }
 
 @media (max-width: 992px) {
