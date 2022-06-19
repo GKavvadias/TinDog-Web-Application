@@ -36,7 +36,6 @@ h3 {
 
 p {
   color: #8f8f8f;
-  width: 70%;
   margin: 0 auto;
 }
 
@@ -96,6 +95,10 @@ p {
   padding: 50px 0;
 }
 
+.features-p {
+  width: 70%;
+}
+
 /* Testimonial Section */
 
 #testimonials {
@@ -123,4 +126,21 @@ p {
 .press-img {
   width: 15%;
   padding: 10px 25px 55px 25px;
+}
+
+/* Pricing Section */
+
+
+#pricing {
+padding: 100px;
+text-align: center;
+}
+
+.pricing-btn {
+margin: 10px auto;
+width: 100%;
+}
+
+.pricing-col {
+  padding: 1.8rem;
 }
